@@ -1,72 +1,41 @@
-# LeetCode FAANG Solutions
+# FAANG LeetCode Solutions (Python)
 
-Welcome to the **LeetCode FAANG Solutions** repository! This project aims to provide comprehensive solutions to LeetCode problems that are frequently asked in FAANG (Facebook, Amazon, Apple, Netflix, Google) interviews, implemented in Python.
+Welcome to the **FAANG LeetCode Solutions (Python)** repository! This repository contains solutions to LeetCode problems commonly asked by FAANG companies (Facebook, Amazon, Apple, Netflix, Google) in their coding interviews. The solutions are written in Python.
 
 ## 🚀 Repository Structure
 
-The repository is organized into different categories of problems, with each category containing individual solutions. Below is the structure:
+The repository is organized into different patterns of problems, with each pattern containing individual solutions. Below is the structure:
 
 ### 🗂️ Root Directory
 
 - **`README.md`**: The main README file.
 - **`LICENSE`**: The license for this project.
 - **`.gitignore`**: Git ignore file.
-- **`categories/`**: Directory containing categorized problems.
+- **`patterns/`**: Directory containing pattern based problems.
 - **`utils/`**: Directory containing utility functions and helper scripts.
 
-### 📂 Categories Directory
+### 📂 Patterns Directory
 
-- **`arrays/`**: Solutions to array-related problems.
-  - `README.md`: Overview of array problems.
-  - `two_sum.py`
-  - `best_time_to_buy_and_sell_stock.py`
-  - ...
-- **`strings/`**: Solutions to string-related problems.
-  - `README.md`: Overview of string problems.
-  - `longest_substring_without_repeating_characters.py`
-  - `valid_palindrome.py`
-  - ...
-- **`linked_lists/`**: Solutions to linked list-related problems.
-  - `README.md`: Overview of linked list problems.
-  - `merge_two_sorted_lists.py`
-  - `reverse_linked_list.py`
-  - ...
-- **`trees/`**: Solutions to tree-related problems.
-  - `README.md`: Overview of tree problems.
-  - `binary_tree_inorder_traversal.py`
-  - `validate_binary_search_tree.py`
-  - ...
-- **`graphs/`**: Solutions to graph-related problems.
-  - `README.md`: Overview of graph problems.
-  - `number_of_islands.py`
-  - `clone_graph.py`
-  - ...
-- **`dynamic_programming/`**: Solutions to dynamic programming problems.
-  - `README.md`: Overview of dynamic programming problems.
-  - `climbing_stairs.py`
-  - `longest_increasing_subsequence.py`
+- **`sliding_window/`**: Solutions to sliding window related problems.
+  - `README.md`: Overview of sliding window technique and problems.
+  - `209_minimum_size_subarray_sum.py`
   - ...
 
-### 🛠️ Utils Directory
-
-- **`README.md`**: Overview of utilities.
-- **`helper_functions.py`**: Helper functions used across multiple solutions.
-- **`test_utils.py`**: Testing utilities.
 
 ## 📝 How to Use
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/leetcode-faang-solutions.git
+   git clone git clone https://github.com/abirhussain/faang-leetcode-problems-python.git
    ```
 2. **Navigate to the desired category and problem folder to view the solution:**
    ```sh
-   cd leetcode-faang-solutions/categories/arrays
+   cd faang-leetcode-problems-python/categories/arrays
    ```
 3. **Run the solution:**
-   Each problem file is self-contained and can be run independently. For example, to run `two_sum.py`:
+   Each problem file is self-contained and can be run independently. For example, to run `001_two_sum.py`:
    ```sh
-   python two_sum.py
+   python 001_two_sum.py
    ```
 
 ## 🤝 Contributing
@@ -94,6 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-For any questions or feedback, please reach out to [abir.hussain.rcc@gmail.com](mailto:abir.hussain.rcc@gmail.com).
+For any questions or feedback, please reach out to abir.hussain.rcc@gmail.com.
 
 Happy Coding! 🎉
