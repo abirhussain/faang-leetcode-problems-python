@@ -1,5 +1,5 @@
 class Solution:
-    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]: # type: ignore
         # Solution Steps:
         # 1. Create a hashmap (dictionary) to store counts of elements in nums1
         # 2. Iterate over nums2 and check if the element exists in the hashmap.
